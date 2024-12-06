@@ -1,0 +1,100 @@
+
+.about{
+     
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding: 30px;
+    background-color: #ffc0cb;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(225, 60, 115); */
+    /* border: 0.2px solid black; */
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 50vw;
+    height: 60vh;
+    /* border: 0.2px solid black; */
+    border-radius: 20px;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 50vw;
+    height: 60vh;
+    /* border: 0.2px solid black; */
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 30vh;
+    gap: 150px;
+    /* background-color: pink; */
+ 
+
+/* .add{
+    width: 40%;
+    height: 25vh;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+
+
+/* .logo{
+    width: 40px;
+    height: 40px;
+}
+
+.weblogo{
+    font-size: 50px;
+} */ 

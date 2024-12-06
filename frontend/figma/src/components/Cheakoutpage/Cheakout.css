@@ -1,0 +1,43 @@
+/* App.css */
+:root {
+    --primary-pink: #f9c5d7;
+    --secondary-pink: #ffd1e5;
+    --white: #fff;
+    --black: #000;
+    --gray: #666;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-pink);
+    color: var(--black);
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .container1 {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  section {
+    flex: 1;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }

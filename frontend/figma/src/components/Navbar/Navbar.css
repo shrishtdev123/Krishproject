@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ffc0cb;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0; /* Ensure it stays at the top */
+  }
+  
+  .navbar-logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar-logo span {
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff69b4;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icons .icon-search,
+  .navbar-icons .icon-cart,
+  .navbar-icons .icon-heart,
+  .navbar-icons .icon-user {
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-icons .icon-search:hover,
+  .navbar-icons .icon-cart:hover,
+  .navbar-icons .icon-heart:hover,
+  .navbar-icons .icon-user:hover {
+    color: #ff69b4;
+  }
+  
+  /* Ensure the content starts below the navbar */
+  .main-content {
+    margin-top: 60px; /* Same as the height of your navbar (adjust if needed) */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  

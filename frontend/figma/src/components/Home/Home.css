@@ -1,0 +1,36 @@
+
+.home{
+     margin-top: 50px;
+}
+
+.creative {
+     padding: 40px 20px;
+     background-color: var(--grey);
+     text-align: center;
+   }
+   
+   .grid {
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     justify-content: center;
+     gap: 20px;
+   }
+   
+   .grid img {
+     Width: 535px;
+     Top :998px;
+     Height: 638px;
+     Left :269px;
+     
+   }
+   #A{
+     Width:347px;
+     Height: 601px;
+     Top :998px;
+     Left: 837px;
+   }
+   #B{
+     width:30px;
+     height:30px;
+     border-radius: 30px;
+   }

@@ -1,0 +1,30 @@
+
+.dash1{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 15px;
+}
+.dash{
+     
+        padding: 80px; 
+       background-color:white;
+       border-radius: 5px;
+        /* width: 230px;
+       height: 172px; */
+       
+}
+.dash1{
+     grid-column: 1/5;
+}
+.dash6{
+      grid-column: 1/3;
+}
+.dash7{
+    grid-column: 3/5;
+}
+.dash8{
+    grid-column: 1/3;
+}
+.dash9{
+    grid-column: 3/5;
+}
